@@ -1,0 +1,272 @@
+.header {
+  width: 100%;
+  height: 149px;
+}
+
+.header .top {
+  width: 100%;
+  height: 87px;
+  background-color: rgba(0, 14, 34, 0.9);
+  position: relative;
+}
+
+.header .top a {
+  color: #fff;
+  z-index: 5;
+  text-align: center;
+  font-size: 15px;
+  line-height: 87px;
+}
+
+.header .top .component {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+}
+
+.header .top .component span {
+  float: left;
+  line-height: 87px;
+  margin: 0 30px;
+  color: #fff;
+}
+
+.header .menu {
+  width: 100%;
+  background-color: rgba(0, 8, 28, 0.38);
+  height: 62px;
+}
+
+.header .menu ul {
+  width: 1023px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header .menu ul li {
+  text-align: center;
+  line-height: 62px;
+}
+
+.header .menu ul li a {
+  color: #e8e8e8;
+  font-size: 14px;
+}
+
+.header .menu ul .allSeries2 {
+  position: relative;
+}
+
+.header .menu ul .allSeries3 {
+  position: relative;
+}
+
+.header .menu ul .allSeries2:hover .menu2 {
+  display: block;
+}
+
+.header .menu ul .allSeries3:hover .menu2 {
+  display: block;
+}
+
+.header .menu ul .menu2 {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: -15px;
+  margin-top: 1px;
+  z-index: 1;
+  color: #00081c;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 28px 0px;
+}
+
+.header .menu ul .menu2 span {
+  display: block;
+  margin: -10px 15px 1.6px;
+}
+
+.header .menu ul .menu2 span a {
+  color: #00081c;
+}
+
+.header .menu ul .menu2 span:hover a {
+  color: #fff;
+}
+
+.center {
+  width: 1140px;
+  margin: 100px auto;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.16);
+}
+
+.center h2 {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.center .car {
+  width: 100%;
+}
+
+.center .car .cartitle {
+  width: 100%;
+}
+
+.center .car .cartitle .title {
+  width: 100%;
+  height: 35px;
+  line-height: 50px;
+}
+
+.center .car .cartitle .title td {
+  text-align: center;
+}
+
+.center .car .carlist {
+  width: 100%;
+}
+
+.center .car .carlist tr {
+  width: 100%;
+  height: 100px;
+}
+
+.center .car .carlist tr td {
+  text-align: center;
+}
+
+.center .car .carlist tr .img {
+  width: 95px;
+  height: 95px;
+}
+
+.center .car .carlist tr .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.center .car .carlist tr .count {
+  width: 25px;
+  height: 19px;
+  text-align: center;
+}
+
+.center .car .carlist tr .delpro {
+  width: 208px;
+}
+
+.center .car .carlist tr .delpro button {
+  font-size: 35px;
+  background-color: #fff;
+}
+
+.center .car tfoot {
+  height: 100px;
+  margin: 100px 0;
+}
+
+.center .car tfoot .pay .addup {
+  text-align: center;
+}
+
+.center .car tfoot .pay .paybtn .confirm {
+  width: 125px;
+  height: 35px;
+  border: 1px solid #cdbc7a;
+  background: #000e22;
+  color: #cdbc7a !important;
+}
+
+.footer {
+  width: 100%;
+  background-color: #101820;
+}
+
+.footer footer {
+  width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.footer footer .footer_top {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer footer .footer_top ul {
+  margin-right: 175px;
+  float: left;
+}
+
+.footer footer .footer_top ul li {
+  line-height: 46px;
+}
+
+.footer footer .footer_top ul li a {
+  color: #fff;
+}
+
+.footer footer .footer_top ul li:nth-of-type(1) a {
+  color: #fff;
+  margin: 3px 0;
+  font-size: 17px;
+}
+
+.footer footer .footer_top ul:nth-of-type(5) {
+  margin-right: 0;
+}
+
+.footer footer .footer_top ul:nth-of-type(5) li:nth-of-type(2) a img {
+  width: 60px;
+  height: 25px;
+}
+
+.footer footer .footer_bottom {
+  padding-top: 40px;
+}
+
+.footer footer .footer_bottom p {
+  line-height: 40px;
+}
+
+.footer footer .footer_bottom p span {
+  padding-right: 28px;
+  padding-left: 30px;
+  border-right: 2px solid #ccc;
+  color: #fff;
+  font-size: 15px;
+}
+
+.footer footer .footer_bottom .explain {
+  line-height: 40px;
+}
+
+.footer footer .footer_bottom .explain span {
+  font-size: 15px;
+  padding-right: 28px;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.footer footer .footer_bottom .explain .two {
+  margin-left: 60px;
+}
+
+.footer footer .footer_bottom .explain .two a {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #fff;
+  border-right: 2px solid #ccc;
+}
+
+.footer footer .footer_bottom .explain .two a:nth-of-type(4) {
+  border-right: none;
+  padding-right: 0;
+}

@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+/*css 初始化 */
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input,
+div,
+header,
+footer,
+section,
+main,
+nav,
+article,
+aside,
+figure,
+figcaption,
+hgroup,
+mark {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,
+img,
+input,
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*去掉input等聚焦时的蓝色边框*/
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+
+/*input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}*/
+
+select,
+input {
+    vertical-align: middle;
+}
+
+
+/*select, input, textarea { font-size:12px; margin:0; }*/
+
+textarea {
+    resize: none;
+}
+
+
+/*防止拖动*/
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+
+table {
+    border-collapse: collapse;
+}
+
+
+/*添加公共样式*/
+
+
+/*清除浮动*/
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    /*兼容ie*/
+    zoom: 1;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+/* a:hover { */
+
+
+/* color: #C81623; */
+
+
+/* } */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+
+/*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/*公共类*/
+
+.container {
+    /*版心 提取 */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+
+/* 鼠标变为手型 */
+
+.hand {
+    cursor: pointer;
+}
+
+
+/* dw */
+
+.carnone {
+    width: 475px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: none;
+    z-index: 50;
+    border: 1px #000 solid;
+    background-color: #fff;
+}
+
+.carnone p {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+.carnone p .close {
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+}
+
+.carnone .or {
+    border-bottom: 1px solid #ccc;
+}
+
+.carnone .or h2 {
+    margin-top: 20px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.carnone .or div {
+    width: 100%;
+    text-align: center;
+}
+
+.carnone .or div button {
+    background-color: #00081c;
+    color: #cdbc7a;
+    width: 300px;
+    height: 50px;
+}
+
+.carnone .or table {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.carnone .or table .carlist {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.carnone .or table .carlist tr {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+.carnone .or table .carlist tr td {
+    text-align: center;
+    height: 100px;
+}
+
+.carnone .or table .carlist tr .img {
+    width: 78px;
+    height: 78px;
+    margin-left: 10px;
+}
+
+.carnone .or table .carlist tr .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.carnone .or table .carlist tr .type {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carnone .or table .carlist tr .type span {
+    margin: 5px 0;
+}
+
+.carnone .or table .carlist tr .count {
+    width: 25px;
+    height: 19px;
+    text-align: center;
+}
+
+.carnone .or table .carlist tr .delpro .del {
+    font-size: 35px;
+    background-color: #fff;
+}
